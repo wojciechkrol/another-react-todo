@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import { Filters } from "../services/filter/actions";
+import { Filters } from "../store/filter/actions";
 import Filter from "../components/Filter";
 
 const filters = {

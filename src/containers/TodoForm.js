@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { InputGroup, FormControl, Button } from "react-bootstrap";
-import { changeTodo } from "../services/todos/actions";
+import { changeTodo } from "../store/todos/actions";
 
 class TodoForm extends React.Component {
   state = {
